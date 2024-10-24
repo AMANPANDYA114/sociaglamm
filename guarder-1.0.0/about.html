@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/1721379201811fevicon.png" type="image/x-icon">
+  <title>Join Socioglamm</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+<style>
+
+
+
+
+.integration-circle-animation {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Increased height */
+  margin: 20px 0; /* Space around the circle */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.center-icon {
+  position: absolute;
+  width: 60px; /* Adjust the size as needed */
+  height: 60px; /* Adjust the size as needed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Ensure it's above other icons */
+}
+
+
+.circle {
+  position: absolute;
+  width: 300px; /* Further increased circle size */
+  height: 300px; /* Further increased circle size */
+  border-radius: 50%;
+  border: 2px dotted white; /* Circle border color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 20s linear infinite;
+}
+
+.icon {
+  position: absolute;
+  width: 40px; /* Further increased icon size */
+  height: 50px; /* Further increased icon size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Positioning icons around the circle */
+.icon:nth-child(1) { transform: rotate(0deg) translate(143px) rotate(0deg); }
+.icon:nth-child(2) { transform: rotate(60deg) translate(143px) rotate(0deg); }
+.icon:nth-child(3) { transform: rotate(120deg) translate(143px) rotate(0deg); }
+.icon:nth-child(4) { transform: rotate(180deg) translate(143px) rotate(0deg); }
+.icon:nth-child(5) { transform: rotate(240deg) translate(143px) rotate(0deg); }
+
+/* Rotate animation */
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+</style>
+<body class="sub_page" style="background-image: url('images/navbarbgimg.png'); background-size: cover; background-position: center; height: 200vh; margin: 0;">
+
+  <div class="hero_area" style="height: 200vh;">
+    <!-- header section starts -->
+    <div class="hero_bg_box">
+      <div class="img-box">
+        <img src="images/hero-bg.jpgss" alt="">
+      </div>
+    </div>
+
+    <header class="header_section">
+      <div class="header_bottom" style="background-image: url('images/navbarbgimg.pngss'); background-size: cover; background-position: center; height: 500px;">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container mt-5" style="background-color: #1A1C24; border-radius: 70px; padding: 20px 15px;">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                <img src="images/1721382400021logo.png" alt="Guarder Logo" style="height: 50px;" />
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" style="color: #ffd50D;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html" style="color: #ffd50D;">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html" style="color: #ffd50D;">Brands</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="guard.html" style="color: #ffd50D;">Investors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="users.html" style="color: #ffd50D;">Users</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" style="color: #ffd50D;">Content-Creators</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="mt-1 text-center" data-aos="fade-up" data-aos-duration="3000" style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh;">
+            <span class="mt-2" style="background: linear-gradient(50deg, #FFD700, #56e7a5); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 50px; font-weight: bold; color: transparent; margin-bottom: 0;">
+              Style Your Influence, <br>
+              Earn with Glamour
+            </span>
+
+            <p class="mb-5 mt-2" data-aos="fade-up" data-aos-duration="3000" style="color: white; font-size: 13px; word-wrap: break-word; text-align: center;">
+              Transform your influence into rewards effortlessly on SocioGlamm. Shop from <br>top brands, showcase their products in your posts, and earn rewards – all with<br> just 50+ followers.
+            </p>
+            <div>
+              <img class="mb-4 ms-3" src="images/goolgleplaystore.png" style="width: 140px; height: 50px;">
+              <img class="mb-4" src="images/applestore.png" style="width: 140px; height: 50px;">
+            </div>
+         
+            <div style="position: relative; width: 140px; height: 200px;"  data-aos="fade-up" data-aos-duration="3000">
+              <img   src="images/mobiledemo1.png" style="width: 180px; height: 400px; position: absolute; top: 0; left: 10; z-index: 1;"  data-aos="flip-up" data-aos-duration="3000">
+              <img src="images/mobiledemo2.png" style="width: 180px; height: 400px; position: absolute; top: 20px; left: 0; z-index: 0;"  data-aos="flip-down" data-aos-duration="3000">
+          </div>
+          
+
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  
+  <!-- service section -->
+
+  <section class="service_section layout_padding" style="background-color: black;">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 >
+          Explore the <span  style="background: linear-gradient(50deg, #FFD700, #56e7a5); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 30px; font-weight: bold; color: transparent; margin-bottom: 0;">
+           Outstanding features
+         </span>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box " style="background-color:  #1A1C24; border-radius: 40px;"  data-aos="fade-up" data-aos-duration="3000">
+            <div class="img-box">
+             
+            </div>
+            <div class="detail-box">
+              <img class=" mb-4" src= "images/1721811483808growth.png" style="width: 60px; height: 60px; margin-right: 60%;">
+     
+              <h6 style="color: white;">
+               Grow your network
+              </h6>
+              <p style="color: white;">
+                Connect with other content creators on SocioGlamm. Collaborate, share ideas, and learn from each other's experiences. This fosters a supportive environment that can accelerate your followers' growth.
+              </p>
+           
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="box " style="background-color:  #1A1C24; border-radius: 40px;" data-aos="fade-up" data-aos-duration="3000">
+      
+            <div class="img-box">
+             
+            </div>
+            <div class="detail-box">
+              <img class=" mb-4" src= "images/1721811546110Brand.png" style="width: 60px; height: 60px; margin-right: 60%;">
+         
+              <h6 style="color: white;">
+                Brand Recognition
+              </h6>
+              <p style="color: white;">
+                This platform innovatively expands its reach and connects with a diverse, engaged audience. Leveraging Socioglamm allows brands to boost their presence and influence among niche 
+              </p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box " style="background-color:  #1A1C24; border-radius: 40px;" data-aos="fade-up" data-aos-duration="3000">
+      
+            <div class="img-box">
+             
+            </div>
+            <div class="detail-box">
+              <img class=" mb-4" src= "images/1721634705536Varchul_card.png" style="width: 60px; height: 60px; margin-right: 60%;">
+         
+              <h6 style="color: white;">
+                Virtual Cards
+              </h6>
+              <p style="color: white;">
+                Get your Socioglamm virtual card that can be used anywhere to shop and enjoy. Explore and win virtual cards that offer flexibility and convenience, usable across various platforms.
+              </p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box " style="background-color:  #1A1C24; border-radius: 40px;" data-aos="fade-up" data-aos-duration="3000">
+      
+            <div class="img-box">
+             
+            </div>
+            <div class="detail-box">
+              <img class=" mb-4" src= "images/1721639163298craft.png" style="width: 60px; height: 60px; margin-right: 60%;">
+         
+              <h6 style="color: white;">
+                Craft, Connect & Captivate       </h6>
+              <p style="color: white;">
+                Show your creativity by posting reels or your picture on your Social Media feed. Get connected with a variety of brands. Collaborate and share your creative journey with like-minded 
+              </p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box " style="background-color:  #1A1C24; border-radius: 40px;" data-aos="fade-up" data-aos-duration="3000">
+      
+            <div class="img-box">
+             
+            </div>
+            <div class="detail-box">
+              <img class=" mb-4" src= "images/1721811520528Brand-Collaborations.png" style="width: 60px; height: 60px; margin-right: 60%;">
+         
+              <h6 style="color: white;">
+                Brand Collaborations
+              </h6>
+              <p style="color: white;">
+                This platform innovatively expands its reach and connects with a diverse, engaged audience. Leveraging Socioglamm allows brands to boost their presence and influence among niche 
+              </p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box " style="background-color:  #1A1C24; border-radius: 40px;" data-aos="fade-up" data-aos-duration="3000">
+            <div class="img-box">
+            
+            </div>
+            <div class="detail-box">
+              <img class=" mb-4" src= "images/1721639216077Securty.png" style="width: 60px; height: 60px; margin-right: 60%;">
+              <h6 style="color: white;">
+                Security Measures
+              </h6>
+              <p style="color: white;">
+                We prioritize data privacy and adhere to industry-leading standards. SocioGlamm follows best practices, including compliance with data protection regulations.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+<!-- service section2 -->
+<section class="service_section layout_padding" style="background-color: black;">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>
+        
+        <span style="background: linear-gradient(50deg, #FFD700, #56e7a5); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 30px; font-weight: bold; color: transparent; margin-bottom: 0; border-bottom: none;">
+          Key Highlights of the <br>Platform
+        </span>
+      </h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="box" style="background-color: #1A1C24; border-radius: 40px; height: 665px; width: 100%;" data-aos="" data-aos-duration="2000">
+          <div class="img-box"></div>
+          <div class="detail-box">
+          
+            <h6  class=""     style="color: white; font-size: 30px; margin-bottom: 20%;">
+              Social Media <br> Integration
+            </h6>
+            
+            <!-- Circle Animation Block -->
+            <div class="integration-circle-animation text-center mt-5">
+              <img class="center-icon" src="images/1721379201811fevicon.png" alt="Center Icon" />
+              <div class="circle">
+               
+                <div class="icon">
+                  <img src="https://zipapi.youstee.com/public/uploads/1721812587136facebook.png" alt="Facebook" />
+                </div>
+                <div class="icon">
+                  <img src="https://zipapi.youstee.com/public/uploads/1721812845336insta.png" alt="Instagram" />
+                </div>
+                <div class="icon">
+                  <img src="https://zipapi.youstee.com/public/uploads/1721812851684linkedin.png" alt="LinkedIn" />
+                </div>
+                <div class="icon">
+                  <img src="https://zipapi.youstee.com/public/uploads/1721812857048tiktok.png" alt="TikTok" />
+                </div>
+                <div class="icon">
+                  <img src="https://zipapi.youstee.com/public/uploads/1721812862414youtube.png" alt="YouTube" />
+                </div>
+               
+               
+              </div>
+            </div>
+
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="box" style="background-color: #1A1C24; border-radius: 40px; height: 665px; width: 100%;" data-aos="" data-aos-duration="2000">
+          <div class="img-box"></div>
+          <div class="detail-box">
+            <h6 style="color: white; font-size: 30px;">The Era of Virtual <br> Credit Cards</h6>
+            <div style="display: flex; justify-content: center; align-items: center; height: 80vh;"> <!-- Container for centering -->
+              <img   id="creditCard"  src="images/creditcard.png" style="max-height: 367px; width: 200px; " /> <!-- Adjust max-height as needed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="box" style="background-color: #1A1C24; border-radius: 40px; height: 665px; width: 100%;" data-aos="" data-aos-duration="2000">
+          <div class="img-box"></div>
+          <div class="detail-box">
+        
+            <h6 style="color: white; font-size: 30px;">Secure Transaction <br> Management</h6>
+            <div style="display: flex; justify-content: center; align-items: center; height: 80vh;"> <!-- Container for centering -->
+              <img src="images/mobiledemo2.png" style="max-height: 367px; width: 200px; "  data-aos="fade-up" data-aos-duration="1000"/> <!-- Adjust max-height as needed -->
+            </div>
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="box" style="background-color: #1A1C24; border-radius: 40px; height: 665px; width: 100%;" data-aos="" data-aos-duration="2000">
+          <div class="img-box"></div>
+          <div class="detail-box">
+            <h6 style="color: white; font-size: 30px;">Explore the Future of  <br> Social Media</h6>
+            <div style="display: flex; justify-content: center; align-items: center; height: 80vh;"> <!-- Container for centering -->
+              <img src="images/mobiledemo1.png" style="max-height: 367px; width: 200px; "  data-aos="fade-up" data-aos-duration="3000"/> <!-- Adjust max-height as needed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end service section2 -->
+
+
+
+
+<section class="team_section layout_padding" style="background-color: #1A1C24; background-size: cover; background-position: center; padding: 60px 0;">
+  <div class="container">
+    <div class="heading_container heading_center">
+
+      <div class="text-center" style="display: flex; justify-content: center; align-items: center; height: 10vh; text-align: center; margin-bottom: 60px;">
+        <h1 class="text-white text-center">
+          Rewards Made Simple:<br>
+          <span style="background: linear-gradient(50deg, #FFD700, #56e7a5); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 30px; font-weight: bold; color: transparent; margin-bottom: 0;">
+            SocioGlamm's Step-by- <br>Step Guide
+          </span>
+        </h1>
+      </div>
+      <div>
+        <div class="row">
+
+        <!-- title -->
+
+
+       
+        
+         <!-- title end -->
+          <div class="col-sm-6">
+
+          
+            <div class="card mb-5" style="background-color: transparent; border: none;">
+             
+
+              <div class="card-body ">
+
+                
+                <h1 class="card-title " style="color: white; font-size: 40px;">
+                  How does this App Work?
+                 
+              </h1>
+              <p class="card-text text-white" >It's Shopping. It's Selfies. It's Rewards. It's Socioglamm where fashion meets fun and fabulousness!"</p>
+              
+              <ul style="list-style-type: disc; padding-left: 20px; color: white;">
+                <li class="" style="text-align: left; font-size: 28px;">
+                 SHOP
+                  <p class="mt-2" style="font-size: 15px;">Dive into a shopping spree with your favorite brands, because here, the world's your fashion runway!</p>
+                </li>
+               
+                <li style="text-align: left; font-size: 28px;">SNAP
+                  <p class="mt-2" style="font-size: 15px;">Strike a pose, snap a selfie with your fabulous finds, and don't forget to tag the brand and Socioglamm to let the world know you're rocking it!</p>
+                </li>
+                <li style="text-align: left; font-size: 28px;">SHINE
+                  <p class="mt-2" style="font-size: 15px;">Brace yourself for the best part – the rewards! With Socioglamm, every post is a potential win, so get ready to earn exciting rewards just by being your stylish self.</p>
+                </li>
+              </ul>
+              <!-- End of list -->
+                <div>
+
+            <!-- list -->
+
+             <!-- list2 -->
+
+                
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card"  style="background-color: transparent; border: none;">
+              <div class="card-body">
+                <img class=" mb-4" data-aos="fade-up" data-aos-duration="2000"  src= "images/shopshine.png" style="width: 490px; height: 700px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+  </div>
+</section>
+
+<!-- end team section -->
+
+
+
+
+
+
+
+
+  
+<footer class="overflow-hidden py-6 py-sm-7 py-xl-8 bg-body-tertiary" style="background-color: #1A1C24;">
+  <div class="container" >
+    <div style="text-align: center;">
+      <p>
+        <img src="images/1721382400021logo.png" alt="Guarder Logo" style="height: 100px; width: 300px;"/>
+    </p>
+  </div>
+  
+    <div style="text-align: center;">
+     
+      <ul style="list-style-type: none; padding: 0; margin: 0; display: inline-flex;">
+          <li style="margin-right: 20px;"><a href="#" style="text-decoration: none; color: white;">Home</a></li>
+          <li style="margin-right: 20px;"><a href="#" style="text-decoration: none; color: white;">Features</a></li>
+          <li style="margin-right: 20px;"><a href="#" style="text-decoration: none; color: white;">Privacy Policy</a></li>
+          <li style="margin-right: 20px;"><a href="#" style="text-decoration: none; color: white;">Terms and Conditions</a></li>
+          <li><a href="#" style="text-decoration: none; color: white;">Content-creators</a></li>
+      </ul>
+  </div>
+  <p class="text-white  mt-2 mb-4">Welcome to SocioGlamm: Shop your favorite Brands, share stylish Posts, and earn Rewards starting at just 50+ followers!</p>
+      <hr class="my-6 text-body-emphasis opacity-1 text-white" style="background-color: whitesmoke;  ">
+      <div class="d-flex flex-column flex-xl-row gap-5 justify-content-center align-items-center">
+          <div class="order-last order-xl-first">
+              <p class="text-white">Copyright © SocioGlamm | Designed by SocioGlamm - Powered by SocioGlamm</p>
+          </div>
+      </div>
+  </div>  
+</footer>
+
+
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+   <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to("#creditCard", {
+        rotation: 360,
+        duration: 3,
+        scrollTrigger: {
+            trigger: "#creditCard",
+            start: "top 80%",
+            end: "bottom 30%",
+            scrub: true,
+        }
+    });
+</script>
+</body>
+
+</html>
